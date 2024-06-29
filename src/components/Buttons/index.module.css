@@ -1,0 +1,40 @@
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  padding: 9px;
+  border-radius: 6px;
+  width: 115px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Inter, sans-serif;
+}
+
+.primary {
+  background-color: #ffffff;
+  border: 1px solid #d1d5db;
+  color: #374151;
+  display: flex;
+  justify-content: center;
+}
+
+.secondary {
+  background-color: #5093e2;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  margin-right: 8px;
+  height: 16px;
+  width: 16px;
+}
+
+.full {
+  width: 100%;
+}

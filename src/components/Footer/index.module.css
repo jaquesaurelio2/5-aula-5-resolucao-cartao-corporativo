@@ -1,0 +1,21 @@
+.footer {
+  padding: 20px;
+  background-color: #d5d4d8;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+.darkFooter {
+  background-color: #161619;
+}
+
+.footer img:first-child {
+  margin-left: 24px;
+}
+
+.footer img {
+  cursor: pointer;
+  margin-right: 24px;
+}
